@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_Ex3_Person", "Session1\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_Ex4_PrintNumbers", "Session1\S1_Ex4_PrintNumbers\S1_Ex4_PrintNumbers.csproj", "{369DC9EE-E190-4FAF-B203-AC0ACAC76222}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_Ex5_Calculator", "Session1\S1_Ex5_Calculator\S1_Ex5_Calculator.csproj", "{1EEB648D-8348-4D8C-9AA1-F3664966BD6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ABDCF488-BE0D-4063-AC0C-3C53E9F73B1A} = {DC4692CC-449E-42D3-B956-08136F7DD06A}
 		{369DC9EE-E190-4FAF-B203-AC0ACAC76222} = {DC4692CC-449E-42D3-B956-08136F7DD06A}
+		{1EEB648D-8348-4D8C-9AA1-F3664966BD6A} = {DC4692CC-449E-42D3-B956-08136F7DD06A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ABDCF488-BE0D-4063-AC0C-3C53E9F73B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{369DC9EE-E190-4FAF-B203-AC0ACAC76222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369DC9EE-E190-4FAF-B203-AC0ACAC76222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369DC9EE-E190-4FAF-B203-AC0ACAC76222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEB648D-8348-4D8C-9AA1-F3664966BD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEB648D-8348-4D8C-9AA1-F3664966BD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEB648D-8348-4D8C-9AA1-F3664966BD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEB648D-8348-4D8C-9AA1-F3664966BD6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
