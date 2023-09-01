@@ -1,3 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using S1_Ex3_Person;
+
+Person person = new Person
+{
+    Name = "Troels"
+};
+
+person.Intrudoce();
