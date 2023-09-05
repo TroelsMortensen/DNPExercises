@@ -17,6 +17,13 @@ public class Company
         {
             sum += employee.GetMonthlySalary();
         }
+
+        return sum;
+    }
+
+    public double GetMonthlySalaryTotalAlternative()
+    {
+        double sum = employees.Sum(employee => employee.GetMonthlySalary());
         return sum;
     }
 
@@ -31,6 +38,13 @@ public class Company
             }
         }
 
+        Console.WriteLine(result.Name);
+    }
+
+    public void DisplayMostExpensiveEmployeeAlternative()
+    {
+        Employee result = employees
+            .First(employee => employee.GetMonthlySalary() >= employees.Max(employee1 => employee1.GetMonthlySalary()));
         Console.WriteLine(result.Name);
     }
 }
