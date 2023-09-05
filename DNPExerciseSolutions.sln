@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_Ex2_TrafficLight", "Sess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_Ex3_DoctorsWaitingRoom", "Session2\S2_Ex3_DoctorsWaitingRoom\S2_Ex3_DoctorsWaitingRoom.csproj", "{328D75FC-1DD9-4B5B-B6DF-F7DCCA5ED13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_Ex3_CarAndPredicates", "Session2\S2_Ex3_CarAndPredicates\S2_Ex3_CarAndPredicates.csproj", "{9D5030C6-747A-4C9B-84C4-D52E9A519A67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_Ex4_CarAndPredicates", "Session2\S2_Ex4_CarAndPredicates\S2_Ex4_CarAndPredicates.csproj", "{9D5030C6-747A-4C9B-84C4-D52E9A519A67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
