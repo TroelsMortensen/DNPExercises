@@ -9,6 +9,13 @@ public class WaitingRoom
 
     public void RunWaitingRoom()
     {
+        while (currentNumber <= ticketCount)
+        {
+            Thread.Sleep(1000);
+            currentNumber++;
+            Console.WriteLine($"Ding! It is now patient number {currentNumber}'s turn.");
+            NumberChange?.Invoke(currentNumber);
+        }
     }
 
     public int DrawNumber()
