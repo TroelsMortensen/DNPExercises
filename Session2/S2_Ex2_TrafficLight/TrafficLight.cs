@@ -10,8 +10,9 @@ public class TrafficLight
         for (int i = 0; i < 12; i++)
         {
             int idx = i % colors.Length;
-            Console.WriteLine("Light is " + colors[idx]);
-            OnLightChange?.Invoke(colors[idx]);
+            string currentColor = colors[idx];
+            Console.WriteLine("Light is " + currentColor);
+            OnLightChange?.Invoke(currentColor);
             Thread.Sleep(1000);
         }
     }
