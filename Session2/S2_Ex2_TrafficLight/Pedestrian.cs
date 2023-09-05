@@ -1,10 +1,10 @@
 ﻿namespace S2_Ex2_TrafficLight;
 
-public class Taxi
+public class Pedestrian
 {
     private int id;
 
-    public Taxi(TrafficLight tl, int id)
+    public Pedestrian(int id, TrafficLight tl)
     {
         this.id = id;
         tl.OnLightChange += ReactToLight;
@@ -12,17 +12,17 @@ public class Taxi
 
     private void ReactToLight(string color)
     {
-        string result = $"Taxi {id} ";
+        string result = $"Pedestrian {id} ";
         switch (color)
         {
             case "GREEN":
-                result += " races across";
+                result += " waits to cross";
                 break;
             case "YELLOW":
-                result += " speeds up, crosses while yelling TAXI GREEN";
+                result += " stretches and gets ready";
                 break;
             case "RED":
-                result += " slams the breaks and comes to a screeching halt";
+                result += " powerwalks across";
                 break;
         }
 
