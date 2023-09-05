@@ -9,6 +9,8 @@ Console.WriteLine("--- Finding blue cars ---");
 List<Car> blueCars = FindByColor(cars, "blue");
 PrintListOfCars(blueCars);
 
+Console.WriteLine("--- Finding red or green cars ---");
+PrintListOfCars(FindByEitherColor(cars, "red", "green"));
 
 void PrintListOfCars(List<Car> list)
 {
@@ -44,7 +46,7 @@ List<Car> GenerateCars()
             }
         );
     }
-    
+
     return generatedCars;
 }
 
@@ -53,4 +55,11 @@ List<Car> FindByColor(List<Car> cars, string color)
     IEnumerable<Car> result = cars.Where(car => car.Color.Equals(color));
     List<Car> list = result.ToList();
     return list;
+}
+
+List<Car> FindByEitherColor(List<Car> cars, string firstColor, string secondColor)
+{
+    return cars
+        .Where(car => car.Color.Equals(firstColor) || car.Color.Equals(secondColor))
+        .ToList();
 }
