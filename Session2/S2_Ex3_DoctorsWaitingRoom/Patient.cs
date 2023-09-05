@@ -14,6 +14,15 @@ public class Patient
 
     private void ReactToNumber(int ticketNumber)
     {
-        
+        Console.WriteLine($"Patient with number {numberInQueue} looks up..");
+        if (ticketNumber == numberInQueue)
+        {
+            Console.WriteLine($"Patient with number {numberInQueue} gets up and walks to the doctor's office");
+            waitingRoom.NumberChange -= ReactToNumber;
+        }
+        else
+        {
+            Console.WriteLine($"Patient with number {numberInQueue} goes back to play with their phone");
+        }
     }
 }

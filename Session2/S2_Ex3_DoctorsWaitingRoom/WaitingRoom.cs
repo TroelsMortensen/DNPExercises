@@ -9,7 +9,7 @@ public class WaitingRoom
 
     public void RunWaitingRoom()
     {
-        while (currentNumber <= ticketCount)
+        while (currentNumber < ticketCount)
         {
             Thread.Sleep(1000);
             currentNumber++;
