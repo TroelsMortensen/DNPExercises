@@ -2,10 +2,21 @@
 
 public class Company
 {
-    private List<Employee> employees;
+    private List<Employee> employees = new();
+
+
+    public void HireNewEmployee(Employee emp)
+    {
+        employees.Add(emp);
+    }
 
     public double GetMonthlySalaryTotal()
     {
-        return 0;
+        double sum = 0;
+        foreach (Employee employee in employees)
+        {
+            sum += employee.GetMonthlySalary();
+        }
+        return sum;
     }
 }
