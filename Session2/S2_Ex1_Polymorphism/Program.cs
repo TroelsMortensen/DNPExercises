@@ -14,3 +14,5 @@ comp.HireNewEmployee(emp2);
 comp.HireNewEmployee(emp3);
 comp.HireNewEmployee(emp4);
 Console.WriteLine("Total expenses: "+ comp.GetMonthlySalaryTotal());
+Console.WriteLine("Most expensive employee:");
+comp.DisplayMostExpensiveEmployee();

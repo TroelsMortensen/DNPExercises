@@ -19,4 +19,18 @@ public class Company
         }
         return sum;
     }
+
+    public void DisplayMostExpensiveEmployee()
+    {
+        Employee result = employees[0];
+        foreach (Employee employee in employees)
+        {
+            if (employee.GetMonthlySalary() > result.GetMonthlySalary())
+            {
+                result = employee;
+            }
+        }
+
+        Console.WriteLine(result.Name);
+    }
 }
