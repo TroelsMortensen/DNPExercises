@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_LargestProductSeries", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_SumsAndQuestionMarks", "Session2\S2_SumsAndQuestionMarks\S2_SumsAndQuestionMarks.csproj", "{E043A405-EB5C-4F60-9AED-3E25D0F50DAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_Palindromes", "Session2\S2_Palindromes\S2_Palindromes.csproj", "{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,7 @@ Global
 		{9D5030C6-747A-4C9B-84C4-D52E9A519A67} = {774E9690-AB2D-40B7-A821-BF1042303DBA}
 		{D1CAD99E-2200-45BE-AA12-CD79FB2950DB} = {774E9690-AB2D-40B7-A821-BF1042303DBA}
 		{E043A405-EB5C-4F60-9AED-3E25D0F50DAB} = {774E9690-AB2D-40B7-A821-BF1042303DBA}
+		{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753} = {774E9690-AB2D-40B7-A821-BF1042303DBA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ABDCF488-BE0D-4063-AC0C-3C53E9F73B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -110,5 +113,9 @@ Global
 		{E043A405-EB5C-4F60-9AED-3E25D0F50DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E043A405-EB5C-4F60-9AED-3E25D0F50DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E043A405-EB5C-4F60-9AED-3E25D0F50DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C58A9E4-AD2C-4C69-9BB0-74C11EBB2753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
